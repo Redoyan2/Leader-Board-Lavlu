@@ -1,8 +1,41 @@
 body{
-    background-color: bisque;
+    background-color:rgb(252, 235, 235);
     font-family: 'Poppins', sans-serif;
 }
-/*...
+/*............Navbar..............*/
+header{
+    margin: 0px;
+    background-color: #562EFF;
+    height: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px 70px;
+}
+.nav-icon img{
+    height: 45px;
+    width: 45px;
+}
+.nav-icon span{
+    color: white;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.nav-item a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: white;
+}
+.nav-item a img{
+    height: 45px;
+    width: 45px;
+}
+
+
 section{
     margin-top: 50px;
 }
@@ -11,7 +44,7 @@ section{
     background-color:#FFFFFF;
     padding: 50px;
 }
-/*.................Player style*/
+/*.................Player style.......*/
 
 
 
